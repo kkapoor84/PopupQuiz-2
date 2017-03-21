@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="15393" started-at="2017-03-19T15:08:59Z" finished-at="2017-03-19T15:09:14Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="15393" started-at="2017-03-19T15:08:59Z" finished-at="2017-03-19T15:09:14Z">
+      <class name="q2.screenshot">
+        <test-method status="PASS" signature="launchChrome()[pri:0, instance:q2.screenshot@7ac7a4e4]" name="launchChrome" is-config="true" duration-ms="14115" started-at="2017-03-19T20:38:59Z" finished-at="2017-03-19T20:39:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchChrome -->
+        <test-method status="PASS" signature="googleScreenshot()[pri:0, instance:q2.screenshot@7ac7a4e4]" name="googleScreenshot" duration-ms="1256" started-at="2017-03-19T20:39:13Z" finished-at="2017-03-19T20:39:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- googleScreenshot -->
+      </class> <!-- q2.screenshot -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
