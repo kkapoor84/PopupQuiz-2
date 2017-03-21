@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test name="Test(failed)">
+    <classes>
+      <class name="questio1.loginbuttonAbsolutepath">
+        <methods>
+          <include name="sendUserName"/>
+          <include name="sendPassword"/>
+          <include name="signUpbutton"/>
+        </methods>
+      </class> <!-- questio1.loginbuttonAbsolutepath -->
+      <class name="q2.screenshot">
+        <methods>
+          <include name="launchChrome"/>
+          <include name="googleScreenshot"/>
+        </methods>
+      </class> <!-- q2.screenshot -->
+      <class name="questio1.loginbuttonRelativepath">
+        <methods>
+          <include name="sendUserName"/>
+          <include name="sendPassword"/>
+          <include name="signUpbutton"/>
+        </methods>
+      </class> <!-- questio1.loginbuttonRelativepath -->
+      <class name="q3.driverClose">
+        <methods>
+          <include name="signUpbutton"/>
+          <include name="sendPassword"/>
+          <include name="closeApp"/>
+          <include name="sendUserName"/>
+        </methods>
+      </class> <!-- q3.driverClose -->
+      <class name="q3.driverQuit">
+        <methods>
+          <include name="closeApp"/>
+          <include name="sendUserName"/>
+          <include name="sendPassword"/>
+          <include name="signUpbutton"/>
+          <include name="composeEmail"/>
+        </methods>
+      </class> <!-- q3.driverQuit -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

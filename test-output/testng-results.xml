@@ -1,21 +1,149 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="25" passed="25">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="15393" started-at="2017-03-19T15:08:59Z" finished-at="2017-03-19T15:09:14Z">
+  <suite name="TestAll" duration-ms="209365" started-at="2017-03-21T17:55:18Z" finished-at="2017-03-21T17:58:48Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="15393" started-at="2017-03-19T15:08:59Z" finished-at="2017-03-19T15:09:14Z">
+    <test name="A" duration-ms="21848" started-at="2017-03-21T17:55:18Z" finished-at="2017-03-21T17:55:40Z">
+      <class name="questio1.loginbuttonAbsolutepath">
+        <test-method status="PASS" signature="Driversetup()[pri:1, instance:questio1.loginbuttonAbsolutepath@4de8b406]" name="Driversetup" duration-ms="13041" started-at="2017-03-21T23:25:18Z" finished-at="2017-03-21T23:25:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Driversetup -->
+        <test-method status="PASS" signature="sendUserName()[pri:2, instance:questio1.loginbuttonAbsolutepath@4de8b406]" name="sendUserName" duration-ms="241" started-at="2017-03-21T23:25:32Z" finished-at="2017-03-21T23:25:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sendUserName -->
+        <test-method status="PASS" signature="sendPassword()[pri:3, instance:questio1.loginbuttonAbsolutepath@4de8b406]" name="sendPassword" duration-ms="5099" started-at="2017-03-21T23:25:32Z" finished-at="2017-03-21T23:25:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sendPassword -->
+        <test-method status="PASS" signature="signUpbutton()[pri:4, instance:questio1.loginbuttonAbsolutepath@4de8b406]" name="signUpbutton" duration-ms="3435" started-at="2017-03-21T23:25:37Z" finished-at="2017-03-21T23:25:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signUpbutton -->
+      </class> <!-- questio1.loginbuttonAbsolutepath -->
+    </test> <!-- A -->
+    <test name="B" duration-ms="18791" started-at="2017-03-21T17:55:40Z" finished-at="2017-03-21T17:55:59Z">
+      <class name="questio1.loginbuttonRelativepath">
+        <test-method status="PASS" signature="Driversetup()[pri:1, instance:questio1.loginbuttonRelativepath@5419f379]" name="Driversetup" duration-ms="10533" started-at="2017-03-21T23:25:40Z" finished-at="2017-03-21T23:25:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Driversetup -->
+        <test-method status="PASS" signature="sendUserName()[pri:2, instance:questio1.loginbuttonRelativepath@5419f379]" name="sendUserName" duration-ms="199" started-at="2017-03-21T23:25:51Z" finished-at="2017-03-21T23:25:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sendUserName -->
+        <test-method status="PASS" signature="sendPassword()[pri:3, instance:questio1.loginbuttonRelativepath@5419f379]" name="sendPassword" duration-ms="5092" started-at="2017-03-21T23:25:51Z" finished-at="2017-03-21T23:25:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sendPassword -->
+        <test-method status="PASS" signature="signUpbutton()[pri:4, instance:questio1.loginbuttonRelativepath@5419f379]" name="signUpbutton" duration-ms="2960" started-at="2017-03-21T23:25:56Z" finished-at="2017-03-21T23:25:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signUpbutton -->
+      </class> <!-- questio1.loginbuttonRelativepath -->
+    </test> <!-- B -->
+    <test name="C" duration-ms="15559" started-at="2017-03-21T17:55:59Z" finished-at="2017-03-21T17:56:15Z">
       <class name="q2.screenshot">
-        <test-method status="PASS" signature="launchChrome()[pri:0, instance:q2.screenshot@7ac7a4e4]" name="launchChrome" is-config="true" duration-ms="14115" started-at="2017-03-19T20:38:59Z" finished-at="2017-03-19T20:39:13Z">
+        <test-method status="PASS" signature="launchChrome()[pri:0, instance:q2.screenshot@7823a2f9]" name="launchChrome" is-config="true" duration-ms="12439" started-at="2017-03-21T23:25:59Z" finished-at="2017-03-21T23:26:12Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchChrome -->
-        <test-method status="PASS" signature="googleScreenshot()[pri:0, instance:q2.screenshot@7ac7a4e4]" name="googleScreenshot" duration-ms="1256" started-at="2017-03-19T20:39:13Z" finished-at="2017-03-19T20:39:14Z">
+        <test-method status="PASS" signature="googleScreenshot()[pri:0, instance:q2.screenshot@7823a2f9]" name="googleScreenshot" duration-ms="3117" started-at="2017-03-21T23:26:12Z" finished-at="2017-03-21T23:26:15Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- googleScreenshot -->
       </class> <!-- q2.screenshot -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- C -->
+    <test name="D" duration-ms="40793" started-at="2017-03-21T17:56:15Z" finished-at="2017-03-21T17:56:56Z">
+      <class name="q3.driverClose">
+        <test-method status="PASS" signature="Driversetup()[pri:1, instance:q3.driverClose@29ee9faa]" name="Driversetup" duration-ms="9362" started-at="2017-03-21T23:26:15Z" finished-at="2017-03-21T23:26:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Driversetup -->
+        <test-method status="PASS" signature="sendUserName()[pri:2, instance:q3.driverClose@29ee9faa]" name="sendUserName" duration-ms="193" started-at="2017-03-21T23:26:24Z" finished-at="2017-03-21T23:26:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sendUserName -->
+        <test-method status="PASS" signature="sendPassword()[pri:3, instance:q3.driverClose@29ee9faa]" name="sendPassword" duration-ms="5085" started-at="2017-03-21T23:26:24Z" finished-at="2017-03-21T23:26:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sendPassword -->
+        <test-method status="PASS" signature="signUpbutton()[pri:4, instance:q3.driverClose@29ee9faa]" name="signUpbutton" duration-ms="700" started-at="2017-03-21T23:26:29Z" finished-at="2017-03-21T23:26:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signUpbutton -->
+        <test-method status="PASS" signature="newWindow()[pri:5, instance:q3.driverClose@29ee9faa]" name="newWindow" duration-ms="10277" started-at="2017-03-21T23:26:30Z" finished-at="2017-03-21T23:26:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- newWindow -->
+        <test-method status="PASS" signature="closeApp()[pri:6, instance:q3.driverClose@29ee9faa]" name="closeApp" duration-ms="15165" started-at="2017-03-21T23:26:40Z" finished-at="2017-03-21T23:26:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApp -->
+      </class> <!-- q3.driverClose -->
+    </test> <!-- D -->
+    <test name="E" duration-ms="42130" started-at="2017-03-21T17:56:56Z" finished-at="2017-03-21T17:57:38Z">
+      <class name="q3.driverQuit">
+        <test-method status="PASS" signature="Driversetup()[pri:1, instance:q3.driverQuit@2b98378d]" name="Driversetup" duration-ms="10083" started-at="2017-03-21T23:26:56Z" finished-at="2017-03-21T23:27:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Driversetup -->
+        <test-method status="PASS" signature="sendUserName()[pri:2, instance:q3.driverQuit@2b98378d]" name="sendUserName" duration-ms="332" started-at="2017-03-21T23:27:06Z" finished-at="2017-03-21T23:27:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sendUserName -->
+        <test-method status="PASS" signature="sendPassword()[pri:3, instance:q3.driverQuit@2b98378d]" name="sendPassword" duration-ms="5116" started-at="2017-03-21T23:27:06Z" finished-at="2017-03-21T23:27:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sendPassword -->
+        <test-method status="PASS" signature="signUpbutton()[pri:4, instance:q3.driverQuit@2b98378d]" name="signUpbutton" duration-ms="9572" started-at="2017-03-21T23:27:11Z" finished-at="2017-03-21T23:27:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signUpbutton -->
+        <test-method status="PASS" signature="composeEmail()[pri:5, instance:q3.driverQuit@2b98378d]" name="composeEmail" duration-ms="109" started-at="2017-03-21T23:27:21Z" finished-at="2017-03-21T23:27:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- composeEmail -->
+        <test-method status="PASS" signature="closeApp()[pri:6, instance:q3.driverQuit@2b98378d]" name="closeApp" duration-ms="16904" started-at="2017-03-21T23:27:21Z" finished-at="2017-03-21T23:27:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApp -->
+      </class> <!-- q3.driverQuit -->
+    </test> <!-- E -->
+    <test name="F" duration-ms="12304" started-at="2017-03-21T17:57:38Z" finished-at="2017-03-21T17:57:50Z">
+      <class name="q4.gmailTitle">
+        <test-method status="PASS" signature="Driversetup()[pri:1, instance:q4.gmailTitle@d8355a8]" name="Driversetup" duration-ms="12299" started-at="2017-03-21T23:27:38Z" finished-at="2017-03-21T23:27:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Driversetup -->
+      </class> <!-- q4.gmailTitle -->
+    </test> <!-- F -->
+    <test name="G" duration-ms="23081" started-at="2017-03-21T17:57:50Z" finished-at="2017-03-21T17:58:13Z">
+      <class name="q5.ExplicitWait">
+        <test-method status="PASS" signature="explicitMethod()[pri:0, instance:q5.ExplicitWait@3ffc5af1]" name="explicitMethod" duration-ms="23079" started-at="2017-03-21T23:27:50Z" finished-at="2017-03-21T23:28:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- explicitMethod -->
+      </class> <!-- q5.ExplicitWait -->
+    </test> <!-- G -->
+    <test name="H" duration-ms="13253" started-at="2017-03-21T17:58:13Z" finished-at="2017-03-21T17:58:26Z">
+      <class name="q5.ImplictWait">
+        <test-method status="PASS" signature="implicitMethod()[pri:0, instance:q5.ImplictWait@6f7fd0e6]" name="implicitMethod" duration-ms="13239" started-at="2017-03-21T23:28:13Z" finished-at="2017-03-21T23:28:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- implicitMethod -->
+      </class> <!-- q5.ImplictWait -->
+    </test> <!-- H -->
+    <test name="I" duration-ms="21368" started-at="2017-03-21T17:58:26Z" finished-at="2017-03-21T17:58:48Z">
+      <class name="q5.FluentWaitClass">
+        <test-method status="PASS" signature="fluentMethod()[pri:0, instance:q5.FluentWaitClass@1bce4f0a]" name="fluentMethod" duration-ms="21367" started-at="2017-03-21T23:28:26Z" finished-at="2017-03-21T23:28:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fluentMethod -->
+      </class> <!-- q5.FluentWaitClass -->
+    </test> <!-- I -->
+  </suite> <!-- TestAll -->
 </testng-results>

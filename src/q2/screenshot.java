@@ -20,9 +20,8 @@ public class screenshot {
 	@BeforeMethod
 	public void launchChrome()
 	{
-	System.setProperty("webdriver.chrome.driver", "C:\\Program Files\\chromedriver.exe");
-	
-	driver =new ChromeDriver();
+		System.setProperty("webdriver.chrome.driver", "C:\\Program Files\\chromedriver.exe");
+ driver = new ChromeDriver();
 	driver.get("http://www.google.com");
 	}
 	
@@ -38,7 +37,7 @@ public class screenshot {
 		    System.out.println(e.getMessage());
 		   
 		   }
-			
+			driver.quit();
 	}
 
 

@@ -18,14 +18,14 @@ public class loginbuttonRelativepath {
 	public static String nextButtonId = "next";
 
 	
-	public static WebDriver driver = null; 
+	public WebDriver driver = null; 
 	static String url= "https://www.gmail.com";
 	
 	@Test (priority=1)	
 	public void Driversetup()
 	{
-		System.setProperty("webdriver.chrome.driver", "C:\\downloads\\chromedriver.exe");
-		driver = new ChromeDriver();
+		System.setProperty("webdriver.chrome.driver", "C:\\Program Files\\chromedriver.exe");
+	       driver = new ChromeDriver();
 		driver.get("https://www.gmail.com");
 	}
 
@@ -57,6 +57,7 @@ public void sendPassword() throws InterruptedException
 		
 		WebElement signupbutton = driver.findElement(By.id(signInID));
 		signupbutton.click();
+		driver.quit();
 	 	
 	}
 }

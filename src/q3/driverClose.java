@@ -25,8 +25,8 @@ public class driverClose {
 	@Test (priority=1)	
 	public void Driversetup()
 	{
-		System.setProperty("webdriver.chrome.driver", "C:\\downloads\\chromedriver.exe");
-		driver = new ChromeDriver();
+		System.setProperty("webdriver.chrome.driver", "C:\\Program Files\\chromedriver.exe");
+	    driver = new ChromeDriver();
 		driver.get("https://www.gmail.com");
 	}
 

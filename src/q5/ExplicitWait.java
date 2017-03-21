@@ -7,14 +7,17 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
+import org.testng.annotations.Test;
 
 public class ExplicitWait {
 	
+	public WebDriver driver = null;
 	
-	public static void main(String[] args) {
+	@Test
+	public void explicitMethod() {
 		
 		System.setProperty("webdriver.chrome.driver", "C:\\Program Files\\chromedriver.exe");
-		WebDriver driver = new ChromeDriver();
+		driver = new ChromeDriver();
 		
 		driver.get("https://www.facebook.com/");
 		WebDriverWait wait = new WebDriverWait(driver,10);

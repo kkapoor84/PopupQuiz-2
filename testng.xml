@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="TestAll">
+
+	<test name="A">
+		<classes>
+			<class name="questio1.loginbuttonAbsolutepath" />
+		</classes>
+	</test>
+
+	<test name="B">
+		<classes>
+			<class name="questio1.loginbuttonRelativepath" />
+		</classes>
+</test>
+	<test name="C">
+		<classes>
+			<class name="q2.screenshot" />
+		</classes>
+	</test>
+
+	<test name="D">
+		<classes>
+			<class name="q3.driverClose" />
+		</classes>
+		
+	</test>
+	
+		<test name="E">
+		<classes>
+			<class name="q3.driverQuit" />
+		</classes>
+		
+	</test>
+	
+			<test name="F">
+		<classes>
+			<class name="q4.gmailTitle" />
+		</classes>
+		
+	</test>
+	
+
+			<test name="G">
+		<classes>
+			<class name="q5.ExplicitWait" />
+		</classes>
+		
+	</test>
+
+	
+			<test name="H">
+		<classes>
+			<class name="q5.ImplictWait" />
+		</classes>
+		
+	</test>
+	
+	
+			<test name="I">
+		<classes>
+			<class name="q5.FluentWaitClass" />
+		</classes>
+		
+	</test>
+	
+	
+
+</suite>

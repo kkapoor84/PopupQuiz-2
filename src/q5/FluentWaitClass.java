@@ -9,19 +9,22 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.ui.FluentWait;
 import org.openqa.selenium.support.ui.Wait;
+import org.testng.annotations.Test;
 
 import com.google.common.base.Function;
 
 public class FluentWaitClass {
 
+	public WebDriver driver=null;
 	
-	public static void main(String[] args) {
+	@Test
+	public void fluentMethod() {
 		
 		System.setProperty("webdriver.chrome.driver", "C:\\Program Files\\chromedriver.exe");
 		 
         // Start browser
 
-       WebDriver driver = new ChromeDriver();
+      driver = new ChromeDriver();
 
         // Maximize browser
 
@@ -102,6 +105,7 @@ else {
 //If element is found then it will display the status
 
        System.out.println("Final visible status is >>>>> " + element.isDisplayed());
+       driver.quit();
 
   }
 
